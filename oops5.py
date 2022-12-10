@@ -26,7 +26,7 @@ class SavingsAccount(Account):
         return (self.balance * self.interestRate / 100)
 
 
-obj1 = SavingsAccount("anand", 2000, 6.6)
+obj1 = SavingsAccount("anand", 2000, 6.66)
 print("Initial Balance:", obj1.getBalance())
 obj1.withdrawal(1000)
 print("Balance after withdrawal:", obj1.getBalance())
